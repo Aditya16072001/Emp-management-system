@@ -1,0 +1,69 @@
+/* employee.css */
+
+/* General styles for the employee component */
+.employee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.employee-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.employee-details {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.employee-details p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.employee-details p span {
+  font-weight: bold;
+  color: #000;
+}
+
+.employee-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.employee-actions button {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.employee-actions button:hover {
+  background-color: #0056b3;
+}
+
+.employee-actions button.delete {
+  background-color: #dc3545;
+}
+
+.employee-actions button.delete:hover {
+  background-color: #a71d2a;
+}
